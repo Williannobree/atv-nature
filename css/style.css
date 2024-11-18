@@ -42,6 +42,133 @@ section.banner h2{
     background-color: rgba(59,134,134, 0.5);
     padding: 10px 20px 10px 20px;
 }
-.servicos{
-    
+.servicos {
+    padding: 3vw 10vw 3vw 10vw;
 }
+.servicos ul {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.servicos ul li {
+    width: 25%;
+}
+.servicos ul li span {
+    font-size: 3rem;
+    color: #3B8686;
+}
+.servicos ul li h3 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin: 20px 0 20px 0;
+}
+.servicos ul li a {
+    background-color: #3B8686;
+    padding: 10px 20px 10px 20px;
+    display: inline-block;
+    margin: 20px 0 0 ;
+}
+.numeros{
+padding:5vw 1vw 5vw 1vw ;
+ background: linear-gradient(rgba(121,189,154,0.5),rgba(121,189,154,0.5)), url(../imagens/back-numeros.png) no-repeat center center;
+ background-size: cover ;
+}
+.numeros ul{
+    display: flex;
+    justify-content: space-between;
+}
+.numeros ul li{
+    color: white;
+    margin: 1vw 2vw 1vw 2vw;
+    font-size: 3rem;
+    text-align: center;
+    width: 10%;
+    padding: 0 2vw 0 2vw;
+}
+.video{
+    padding: 10vw 5vw 10vw 5vw;
+    display: flex;
+    justify-content: space-between;
+}
+.video h3{
+width: 473px;
+height: 49px;
+top: 1772px;
+left: 134px;
+font-family: Open Sans;
+font-size: 36px;
+font-weight: 400;
+line-height: 49.03px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #0B486B;
+}
+.video p{
+    margin: 30px 0 0 0;
+    width: 70%;
+height: 153px;
+top: 1847px;
+left: 135px;
+font-family: Open Sans;
+font-size: 16px;
+font-weight: 600;
+line-height: 21.79px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #747474;
+}
+.video a{
+padding: 10px 20px 10px 20px;
+display: inline-block;
+margin: 0 20px 0 0 ;
+font-family:Open Sans;
+font-size: 16px;
+font-weight: 600;
+line-height: 21.79px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+background: #0B486B;
+}
+ .footer nav {
+    padding: 5vw 10vw 5vw 10vw;
+    color: white;
+    background-color: #3b8686;
+    display: flex;
+    justify-content: space-between;
+}
+footer nav ul.redes-sociais {
+    display: flex;
+    font-size: 2rem;
+    margin: 0 0 1vw 0;
+
+.footer li {
+        margin: 0 10px 0 0
+    }
+}
+
+.footer nav div.contatos {
+    h4 {
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+
+    ul {
+        li {
+            margin: 10px 0 0 0;
+        }
+    }
+}
+.footer nav div.sumario {
+    ul{
+        li{
+            margin: 0 0 30px 0;
+            font-size:1.2rem;
+            text-align: right;
+        }
+    }
+}
+
+
