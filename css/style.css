@@ -132,24 +132,30 @@ text-underline-position: from-font;
 text-decoration-skip-ink: none;
 background: #0B486B;
 }
- .footer nav {
+
+/*rodape*/
+
+
+
+footer nav {
     padding: 5vw 10vw 5vw 10vw;
     color: white;
     background-color: #3b8686;
     display: flex;
     justify-content: space-between;
 }
+
 footer nav ul.redes-sociais {
     display: flex;
     font-size: 2rem;
     margin: 0 0 1vw 0;
 
-.footer li {
+    li {
         margin: 0 10px 0 0
     }
 }
 
-.footer nav div.contatos {
+footer nav div.contatos {
     h4 {
         font-size: 1.2rem;
         font-weight: bold;
@@ -161,7 +167,7 @@ footer nav ul.redes-sociais {
         }
     }
 }
-.footer nav div.sumario {
+footer nav div.sumario {
     ul{
         li{
             margin: 0 0 30px 0;
@@ -170,5 +176,3 @@ footer nav ul.redes-sociais {
         }
     }
 }
-
-
